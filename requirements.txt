@@ -1,0 +1,6 @@
+# Optional: only needed for RedisBudgetStore (persistent / shared limits).
+# TokenGuard itself has zero required dependencies.
+redis>=4.5
+
+# Optional: more accurate pre-request token estimates (falls back to chars/4 when absent).
+# tiktoken
